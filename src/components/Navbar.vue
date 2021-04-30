@@ -1,0 +1,115 @@
+<template>
+    <div class='navbar'>
+            <nav>
+                <div class='navbar_header'>
+                    <p>3D</p>
+                </div>
+                <ul class='nav-links'>
+                    <li class="navlink"><router-link to="/">Home</router-link></li>
+                    <li class="navlink"><router-link to="/">Products</router-link></li>
+                    <li class="navlink"><router-link to="/">Contact</router-link></li>
+                </ul>
+            </nav>
+        </div>
+</template>
+
+<style scoped>
+
+.navbar {
+    background: #121212;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar_header {
+    margin-left: 2em;
+}
+
+.navbar_header p {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: orange;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+ul {
+    list-style: none;
+}
+
+ul.nav-links li {
+    margin: auto 3vw;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    /* margin-right:5vw; */
+}
+
+ul li a:hover {
+    color: white;
+}
+
+ul li button {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+@media screen and (max-width: 576px){
+    nav {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    nav {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .navbar_header {
+        margin-left: 0;
+    }
+
+    ul.nav-links{
+        width: 100%;
+        margin: auto;
+    }
+
+    ul.nav-links li {
+        margin: auto;
+        padding: 0;
+    }
+}
+</style>
