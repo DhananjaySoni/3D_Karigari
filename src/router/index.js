@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import products from '../views/Products.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes = [
   {
     path: '/4',
     redirect: '/'
+  },
+  {
+    path: '/products',
+    component: products
+
   }
   // {
   //   path: '/about',

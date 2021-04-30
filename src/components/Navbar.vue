@@ -6,7 +6,7 @@
                 </div>
                 <ul class='nav-links'>
                     <li class="navlink"><router-link to="/">Home</router-link></li>
-                    <li class="navlink"><router-link to="/">Products</router-link></li>
+                    <li class="navlink"><router-link to="/products">Products</router-link></li>
                     <li class="navlink"><router-link to="/">Contact</router-link></li>
                 </ul>
             </nav>
