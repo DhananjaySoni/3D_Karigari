@@ -1,19 +1,11 @@
 # 3d_karigari
 
-## Project setup
-```
-npm install
-```
+A portfolio website for a company called 3D Karigari. The company does 3D printing based on customers requirements.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This website showcases the portfolio of the company with rather attractive frontend.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The home page gives all the information regarding the company, the achievements, associated partners, testimonials, etc.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The products page gives information regarding the products the company has ever made and users can inquire about these products from the same page.
+
+Finally, there is a contact form from where the users can contact the company regarding any queries.
