@@ -8,56 +8,78 @@
       </div>
       <div class="row">
         <div class="col-12 product my-auto">
-          <a href="#" v-b-modal.modal-scrollable > Our Machines </a>
+          <a href="#" v-b-modal.modal-scrollable> Our Machines </a>
         </div>
       </div>
       <div class="row">
         <div class="col-12 product my-auto">
-          <a href="#" v-b-modal.modal-scrollable > Educational Labs </a>
+          <a href="#" v-b-modal.modal-scrollable> Educational Labs </a>
         </div>
       </div>
     </div>
     <b-modal id="modal-scrollable" scrollable size="xl" hide-footer>
-            <!-- <p class="my-4" v-for="i in 20" :key="i">
+      <!-- <p class="my-4" v-for="i in 20" :key="i">
                 Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
             </p> -->
-            <div class="my-4 row"  v-for="i in 20" :key="i">
-                <div class="col-4">
-                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
-                        <b-card-text>
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </b-card-text>
-                        <b-button href="#" variant="primary">Enquire Me</b-button>
-                    </b-card>
-                </div>
-                <div class="col-4">
-                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
-                        <b-card-text>
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </b-card-text>
-                        <b-button href="#" variant="primary">Enquire Me</b-button>
-                    </b-card>
-                </div>
-                <div class="col-4">
-                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
-                        <b-card-text>
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </b-card-text>
-                        <b-button href="#" variant="primary">Enquire Me</b-button>
-                    </b-card>
-                </div>
-            </div>
-        </b-modal>
+      <div class="my-4 row" v-for="i in 20" :key="i">
+        <div class="col-4">
+          <b-card
+            title="Card Title"
+            img-src="https://picsum.photos/600/300/?image=25"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem"
+            class="mb-2"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+            <b-button href="#" variant="primary">Enquire Me</b-button>
+          </b-card>
+        </div>
+        <div class="col-4">
+          <b-card
+            title="Card Title"
+            img-src="https://picsum.photos/600/300/?image=25"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem"
+            class="mb-2"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+            <b-button href="#" variant="primary">Enquire Me</b-button>
+          </b-card>
+        </div>
+        <div class="col-4">
+          <b-card
+            title="Card Title"
+            img-src="https://picsum.photos/600/300/?image=25"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem"
+            class="mb-2"
+          >
+            <b-card-text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </b-card-text>
+            <b-button href="#" variant="primary">Enquire Me</b-button>
+          </b-card>
+        </div>
+      </div>
+    </b-modal>
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style>
 .container {
-  /* margin-top:8vh; */
   height: 100%;
 }
 .bg {
@@ -65,7 +87,7 @@ export default {};
   color: #1b4f6a;
 }
 .productsMain {
-    height:100vh;
+  height: 100vh;
   padding-top: 70px;
   padding-bottom: 8vh;
 }
@@ -74,16 +96,12 @@ export default {};
   height: 30%;
   overflow: hidden;
 }
-/* .emoji {
-} */
 
 .product {
-  /* margin-top: 6vh; */
   font-family: Ginger Bold;
   font-size: 15vh;
   font-weight: 800;
   line-height: 15vh;
-  /* color: ; */
   letter-spacing: 1.5px;
 }
 .product a {
@@ -91,7 +109,6 @@ export default {};
   transition: 1s;
   color: rgb(0, 0, 0);
   display: inline-block;
-  /* line-height:15vh; */
 }
 .product a:hover {
   text-decoration: none;
@@ -101,37 +118,29 @@ export default {};
     auto;
 }
 
-	@media (max-width: 1050px) {
-    .product {
-        font-size: 13vh;
+@media (max-width: 1050px) {
+  .product {
+    font-size: 13vh;
     line-height: 13vh;
-
-        /* margin-top: 10vh; */
-    }
+  }
 }
 
 @media (max-width: 995px) {
   .product a {
     font-size: 10vh;
     line-height: 10vh;
-
-    /* margin-top: 10vh; */
   }
 }
 @media (max-width: 500px) {
   .product a {
     font-size: 8vh;
     line-height: 8vh;
-
-    /* margin-top: 12vh; */
   }
 }
 @media (max-width: 300px) {
   .product a {
     font-size: 5vh;
     line-height: 5vh;
-
-    /* margin-top: 16vh; */
   }
 }
 </style>
