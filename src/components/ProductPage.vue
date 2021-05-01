@@ -24,11 +24,38 @@
             </div>
         </div>
         <b-modal id="modal-scrollable" scrollable size="xl" hide-footer>
-            <p class="my-4" v-for="i in 20" :key="i">
-                Cras mattis consectetur purus sit amet fermentum. 
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam. 
-                Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-            </p>
+            <!-- <p class="my-4" v-for="i in 20" :key="i">
+                Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            </p> -->
+            <div class="my-4 row"  v-for="i in 20" :key="i">
+                <div class="col-4">
+                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                </div>
+                <div class="col-4">
+                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                </div>
+                <div class="col-4">
+                    <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                </div>
+            </div>
         </b-modal>
     </div>
 </template>
