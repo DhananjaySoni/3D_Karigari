@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer_container row">
+    <div class="row">
       <div class="footer_left col-6 col-sm-4">
         <p>2021 &copy; 3D&nbsp;Karigari</p>
       </div>
@@ -53,17 +53,10 @@
   width: 100%;
   height: 8vh;
   z-index: 1;
-  padding: 0;
+  padding: 10px 0;
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-.footer_container {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  margin: auto;
 }
 
 .row {
@@ -102,6 +95,7 @@ ul.social_links {
 
 .social_links svg {
   color: #444;
+  transform: scale(1.3);
 }
 
 ul li a {
@@ -125,8 +119,14 @@ ul li a {
 }
 
 @media screen and (max-width: 576px) {
+  .footer{
+    padding-top:5px;
+  }
+  ul.social-links{
+    margin-top:5px;
+  }
   div.footer_mid img {
-    height: 30px;
+    height: 35px;
   }
   div.footer_left p {
     font-size: 80%;

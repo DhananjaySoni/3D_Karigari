@@ -174,10 +174,6 @@ $scrollTime: 1s;
       transform: translate3d(0, 100%, 0);
     }
 
-    &--right {
-      left: 50%;
-      transform: translate3d(0, -100%, 0);
-    }
 
     .skw-page.active & {
       transform: translate3d(0, 0, 0);
@@ -208,11 +204,8 @@ $scrollTime: 1s;
 
     .skw-page.inactive & {
       opacity: 0.5;
+      transform: translate3d(0,-100%,0);
     }
-  }
-
-  &__link {
-    color: #ffa0a0;
   }
 
   &-2 {
@@ -223,7 +216,6 @@ $scrollTime: 1s;
       .about {
         height: 100%;
         width: 100%;
-
         .row {
           height: 50%;
           .col {
