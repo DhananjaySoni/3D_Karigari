@@ -1,20 +1,18 @@
 <template>
-    <div class="bg">
-        <navbar />
+    <div class="products">
+        <div class="bg">
         <ProductPage />
-        <Footer />
+        <Footer /></div>
     </div>
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import ProductPage from "@/components/ProductPage.vue"
 
 export default {
     components: {
         Footer,
-        Navbar,
         ProductPage,
     },
 };

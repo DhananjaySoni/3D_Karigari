@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="container ">
+    <div class="productsMain">
+        <div class="container">
             <div class="row">
                 <div class="col-12 product">
                     <p>
@@ -56,7 +56,7 @@ export default {};
     background-image: url("/cursor/noz.jpg");
 }
 
-.product:{
+.product{
     color: rgb(80, 130, 0);
 }
 @media (max-width: 995px) {

@@ -108,19 +108,19 @@ ul li a {
   text-decoration: none;
 }
 
-.social_links li:nth-child(1) a:hover svg {
-  color: red;
+.social_links li:nth-child(1) a svg {
+  color: pink;
 }
 
-.social_links li:nth-child(2) a:hover svg {
+.social_links li:nth-child(2) a svg {
   color: #00aced;
 }
 
-.social_links li:nth-child(3) a:hover svg {
-  color: green;
+.social_links li:nth-child(3) a svg {
+  color: lightgreen;
 }
 
-.social_links li:nth-child(4) a:hover svg {
+.social_links li:nth-child(4) a svg {
   color: white;
 }
 

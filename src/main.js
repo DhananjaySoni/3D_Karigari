@@ -7,11 +7,6 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-import 'animate.css'
-import 'fullpage-vue/src/fullpage.css'
-import VueFullpage from 'fullpage-vue'
-Vue.use(VueFullpage)
-
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
