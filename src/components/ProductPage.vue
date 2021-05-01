@@ -34,7 +34,7 @@
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
 
-                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                        <b-button href="#" variant="primary">Enquire Me</b-button>
                     </b-card>
                 </div>
                 <div class="col-4">
@@ -43,7 +43,7 @@
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
 
-                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                        <b-button href="#" variant="primary">Enquire Me</b-button>
                     </b-card>
                 </div>
                 <div class="col-4">
@@ -52,7 +52,7 @@
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
 
-                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                        <b-button href="#" variant="primary">Enquire Me</b-button>
                     </b-card>
                 </div>
             </div>
