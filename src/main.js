@@ -18,9 +18,6 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-import 'onepage-scroll/jquery.onepage-scroll.js';
-import 'onepage-scroll/onepage-scroll.css';
-
 
 new Vue({
   router,

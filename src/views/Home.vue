@@ -4,16 +4,11 @@
       <div class="skw-page skw-page-1 active">
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
-            <video
-              id="homeVid"
-              keepplaying="true"
-              loop
-              autoPlay
-              muted
-              width="100%"
-            >
-              <source src="/clock.mp4" type="video/mp4" />
-            </video>
+            <div class="video-container">
+              <video id="homeVid" keepplaying="true" loop autoPlay muted>
+                <source src="/clock.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -66,7 +61,9 @@
       <div class="skw-page skw-page-3">
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
+            <div class="skw-page__content">
+              <Testimonials/>
+            </div>
           </div>
         </div>
       </div>
@@ -83,11 +80,13 @@
 
 
 <script>
+import Testimonials from "@/components/Testimonials.vue";
 import Footer from "@/components/Footer.vue";
 import $ from "jquery";
 export default {
   name: "Home",
   components: {
+    Testimonials,
     Footer,
   },
   mounted() {
@@ -163,8 +162,6 @@ $scrollTime: 1s;
   width: 100%;
 
   &__half {
-    // position: absolute;
-    // top: 0;
     width: 100%;
     height: 100vh;
     transition: transform $scrollTime;
@@ -173,7 +170,6 @@ $scrollTime: 1s;
       left: 0;
       transform: translate3d(0, 100%, 0);
     }
-
 
     .skw-page.active & {
       transform: translate3d(0, 0, 0);
@@ -204,7 +200,7 @@ $scrollTime: 1s;
 
     .skw-page.inactive & {
       opacity: 0.5;
-      transform: translate3d(0,-100%,0);
+      transform: translate3d(0, -100%, 0);
     }
   }
 
@@ -219,7 +215,7 @@ $scrollTime: 1s;
         .row {
           height: 50%;
           .col {
-            height: 100%;
+            max-height: 100%;
             object-fit: cover;
             .about_content {
               padding: 10% 3%;
@@ -240,6 +236,7 @@ $scrollTime: 1s;
   &-3 {
     .skw-page__half--left .skw-page__content {
       background: #e6eeec;
+      overflow:hidden;
     }
   }
   &-4 {
@@ -259,16 +256,43 @@ $scrollTime: 1s;
         .about {
           height: 100%;
           width: 100%;
-
           .row {
             height: 100%;
             .col {
-              height: 50%;
+              max-height: 50%;
+              .about_content{
+                padding-top:0;
+                p {
+                font-size: 16px;
+              }
+              }
+              img {
+                padding-top:5%;
+                max-width: 100%;
+                height: auto;
+              }
             }
           }
         }
       }
     }
   }
+}
+
+.video-container {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-overflow-scrolling: touch;
+}
+.video-container > video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 </style>
