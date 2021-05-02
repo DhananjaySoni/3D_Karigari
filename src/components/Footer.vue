@@ -51,7 +51,7 @@
 .footer {
   background: #757575;
   width: 100%;
-  height: 8vh;
+  /* height: vh; */
   z-index: 1;
   padding: 10px 0;
   position: absolute;

@@ -13,7 +13,7 @@
                 <section class="ftco-section">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-md-6 text-center mb-5">
+                            <div class="col-md-6 text-center mb-5 h-75">
                                 <h2 class="heading-section">Contact Us</h2>
                             </div>
                         </div>
@@ -87,14 +87,14 @@
                                                         <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
                                                     </div>
                                                 </div>
-                                                <div class="dbox w-100 d-flex align-items-center">
+                                                <!-- <div class="dbox w-100 d-flex align-items-center">
                                                     <div class="icon d-flex align-items-center justify-content-center">
                                                         <span class="fa fa-globe"></span>
                                                     </div>
                                                     <div class="text pl-3">
                                                         <p><span>Website</span> <a href="#">yoursite.com</a></p>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>

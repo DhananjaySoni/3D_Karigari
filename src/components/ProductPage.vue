@@ -22,7 +22,7 @@
                 Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
             </p> -->
       <div class="my-4 row" v-for="i in 20" :key="i">
-        <div class="col-4">
+        <div class="col-6 col-md-4 col-lg-4">
           <b-card
             title="Card Title"
             img-src="https://picsum.photos/600/300/?image=25"
@@ -39,7 +39,7 @@
             <b-button href="#" variant="primary">Enquire Me</b-button>
           </b-card>
         </div>
-        <div class="col-4">
+        <div class="col-6 col-md-4 col-lg-4">
           <b-card
             title="Card Title"
             img-src="https://picsum.photos/600/300/?image=25"
@@ -56,7 +56,7 @@
             <b-button href="#" variant="primary">Enquire Me</b-button>
           </b-card>
         </div>
-        <div class="col-4">
+        <div class="col-6 col-md-4 col-lg-4">
           <b-card
             title="Card Title"
             img-src="https://picsum.photos/600/300/?image=25"
@@ -119,6 +119,9 @@
 }
 
 @media (max-width: 1050px) {
+  .productsMain{
+      height: 90vh;
+  }
   .product {
     font-size: 13vh;
     line-height: 13vh;
