@@ -71,6 +71,7 @@ export default {};
     justify-content: space-between;
     background-color: white;
     /* padding: 17px 50px; */
+    
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 50px;
