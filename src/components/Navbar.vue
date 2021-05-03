@@ -344,7 +344,7 @@ ul.nav-links li:hover {
     border-bottom: 2px solid #fff;
 }
 
-ul li a {
+ul.nav-links li a {
     text-decoration: none;
     color: white;
 }
@@ -374,6 +374,7 @@ ul li button {
         text-align: center;
         margin: auto;
         width: 100%;
+        padding-bottom:5px;
     }
 
     .navbar_header {

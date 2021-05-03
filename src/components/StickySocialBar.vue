@@ -51,7 +51,6 @@ export default {};
 }
 .btn .fa-times {
   margin-right: 2px;
-  /* margin-top: 5px; */
   color: #e1306c;
 }
 .btn > i:hover {
@@ -71,7 +70,6 @@ export default {};
   display: none;
   justify-content: space-between;
   background-color: white;
-  /* padding: 17px 50px; */
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 50px;
@@ -80,7 +78,6 @@ export default {};
   animation: fadeIn 1s;
   display: flex;
   flex-direction: column;
-  /* margin-left: 300px; */
   margin-left: 150px;
   width: 80px;
   margin-top: -100px;
@@ -124,7 +121,6 @@ export default {};
     border-radius:8px;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 .fa-at {
