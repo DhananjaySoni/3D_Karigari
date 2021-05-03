@@ -65,7 +65,6 @@
           <div class="skw-page__skewed">
             <div class="skw-page__content">
               <div class="about container">
-                
                 <div class="row">
                   <div class="col-md-6 col-12 col">
                     <div class="about_content">
