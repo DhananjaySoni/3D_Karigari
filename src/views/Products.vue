@@ -19,3 +19,9 @@ export default {
 };
 </script>
 
+<style scoped>
+.products {
+  height: 100vh;
+  width: 100%;
+}
+</style>

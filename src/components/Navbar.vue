@@ -5,9 +5,9 @@
                 <p>3D</p>
             </div>
             <ul class="nav-links">
-                <li class="navlink"><router-link to="/">Home</router-link></li>
-                <li class="navlink"><router-link to="/products">Products</router-link></li>
-                <li class="navlink"><router-link to="/" v-b-modal.modal-scrollable1>Contact</router-link></li>
+                <li class="navlink"><router-link to="/"><i class="fa fa-home mr-2" aria-hidden="true"></i>Home</router-link></li>
+                <li class="navlink"><router-link to="/products"><i class="fa fa-cube mr-2" aria-hidden="true"></i>Products</router-link></li>
+                <li class="navlink" v-b-modal.modal-scrollable1><i class="fa fa-envelope mr-2" aria-hidden="true"></i>Contact</li>
             </ul>
             <b-modal id="modal-scrollable1" scrollable size="xl" hide-footer>
                 <section class="ftco-section">
@@ -157,12 +157,15 @@ ul {
 
 ul.nav-links li {
     margin: auto 3vw;
+    color:#fff;
+}
+ul.nav-links li:hover {
+    border-bottom: 2px solid #fff;
 }
 
 ul li a {
     text-decoration: none;
     color: white;
-    /* margin-right:5vw; */
 }
 
 ul li a:hover {

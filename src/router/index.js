@@ -12,26 +12,11 @@ const routes = [
     component: Home
   },
   {
-    path: '/1',
-    redirect: '/'
-  },
-  {
-    path: '/2',
-    redirect: '/'
-  },
-  {
-    path: '/3',
-    redirect: '/'
-  },
-  {
-    path: '/4',
-    redirect: '/'
-  },
-  {
     path: '/products',
-    component: products
-
-  }
+    name: 'products',
+    component: products,
+    meta: { transitionName: 'slide' },
+  },
   // {
   //   path: '/about',
   //   name: 'About',

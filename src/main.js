@@ -23,6 +23,10 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
+import VuePageTransition from 'vue-page-transition'
+ 
+Vue.use(VuePageTransition)
+
 
 new Vue({
   router,

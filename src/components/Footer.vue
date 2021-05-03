@@ -30,8 +30,7 @@
               target="blank"
               rel="noopener noreferrer"
               href="https://api.whatsapp.com/send?phone=+91XXXX"
-              ><b-icon icon="instagram"></b-icon
-            ></a>
+              ><i class="fab fa-whatsapp"></i></a>
           </li>
           <li>
             <a

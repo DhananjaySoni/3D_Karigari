@@ -58,7 +58,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
     flex-wrap: wrap;
 }
 .bg {
@@ -77,8 +76,8 @@
 }
 
 .product {
-    font-family: Ginger Bold;
-    font-size: 10vh;
+    /* font-family: Ginger Bold; */
+    font-size: 15vh;
     font-weight: 800;
     line-height: 15vh;
     letter-spacing: 1.5px;
