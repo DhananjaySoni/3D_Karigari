@@ -284,9 +284,10 @@ $scrollTime: 1s;
           height: 50%;
           .col {
             max-height: 100%;
-            object-fit: cover;
+            // align-items:center;
+            position:relative;
             .about_content {
-              padding: 10% 3%;
+              padding: 8% 3%;
               h1 {
                 animation: bounce 1s;
                 animation-iteration-count: 2;
@@ -297,8 +298,10 @@ $scrollTime: 1s;
               }
             }
             img {
-              height: 100%;
-              width: 90%;
+              max-width: 100%;
+                height: auto;
+                top: 25%;
+    position: relative;
             }
           }
         }
@@ -356,7 +359,7 @@ $scrollTime: 1s;
                 }
               }
               img {
-                padding-top: 10%;
+                top:0;
                 max-width: 100%;
                 height: auto;
               }
